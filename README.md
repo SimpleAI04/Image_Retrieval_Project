@@ -27,3 +27,11 @@ Image_Retrieval_Project/
 ├── Data/ # Image dataset
 ├── Model/ # Saved models or model-related files
 └── requirements.txt # Required Python packages
+```
+## 📈 Preliminary Results
+
+| Model     | Feature Dim | Top-5 Accuracy | Notes               |
+|-----------|-------------|----------------|---------------------|
+| VGG19     | 512         | 74%            | CNN baseline        |
+| Resnet50  | 2048        | 82%            | Deeper CNN, better performance|
+| ViT-B/16  | 768         | 89%            | Better generalization |
