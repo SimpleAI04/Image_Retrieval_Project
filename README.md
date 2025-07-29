@@ -1,11 +1,19 @@
-# 🖼️ Image Retrieval Project
+# 🖼️ Image Retrieval Project (Experiment)
 
-A simple image retrieval system using deep learning for feature extraction and cosine similarity for image matching.
+An experimental image retrieval system for evaluating how different deep learning models represent image features for visual similarity search.
 
-## 🚀 Features
-- Extracts image features using a pre-trained CNN (e.g., VGG16) 
-- Computes similarity between images using cosine similarity
-- Supports image dataset indexing and retrieval
+## 🚀 Objectives
+- Compare feature extraction quality between CNN-based (e.g., VGG19, Resnet50) and Transformer-based (e.g., ViT) models
+- Build a simple, interactive system to test real-time image retrieval performance
+- Identify which model backbone is more suitable for feature-based image retrieval tasks
+
+## 📊 Evaluation Criteria
+- 🎯 **Top-k Accuracy**: How often the correct or most similar image(s) appear in the top-k results
+
+## 🧪 Experimental Setup
+- Feature extractors: `VGG19`,`Resnet50`, `ViT (vit_base_patch16_224)`
+- Dataset: Custom image set in `/Data/`
+- Retrieval metric: `Cosine similarity`
 
 ## 🧰 Tech Stack
 - Python
