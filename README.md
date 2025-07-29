@@ -11,11 +11,11 @@ A simple image retrieval system using deep learning for feature extraction and c
 - Python
 - Pytorch
 - NumPy, OpenCV
-- Streamlit (UI)
 
 ## 🗂️ Project Structure
-Image_Retrieval_Project
-├── app.py # Streamlit app
+```
+Image_Retrieval_Project/
+│
 ├── Data/ # Image dataset
-├── Model/ # Usage models
-└── requirements.txt # Required packages
+├── Model/ # Saved models or model-related files
+└── requirements.txt # Required Python packages
